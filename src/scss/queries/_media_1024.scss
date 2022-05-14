@@ -1,0 +1,52 @@
+@media screen and (min-width: 960px) {
+  .container {
+    overflow: hidden;
+  }
+
+  .page {
+    background-image: url(../../../images/bg-desktop.svg);
+    background-size: 85%;
+    padding: 4%;
+
+    &__logo img {
+      width: 14%;
+    }
+
+    &__image img {
+      margin-bottom: 0;
+    }
+
+    &__description {
+      align-self: center;
+      margin-left: 100px;
+      margin-bottom: 200px;
+    }
+
+    &__title {
+      text-align: left;
+      font-size: 50px;
+      line-height: 6rem;
+    }
+
+    &__text {
+      text-align: left;
+      font-size: 22px;
+      line-height: 2.8rem;
+    }
+
+    &__btn {
+      justify-content: flex-start;
+    }
+
+    &__social {
+      justify-content: flex-end;
+      margin-top: 0px;
+    }
+  }
+
+  .main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 55% 40%;
+  }
+}

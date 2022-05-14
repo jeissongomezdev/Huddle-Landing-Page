@@ -3,5 +3,5 @@
 @use "./scss/abstracts/mixins";
 
 // Base
-@use "./scss/base/base";
 @use "./scss/base/resets";
+@use "./scss/queries/media_1024";
