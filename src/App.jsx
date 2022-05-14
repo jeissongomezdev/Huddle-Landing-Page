@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="wrapper">
+        <div className="page">
           <div className="page__logo">
             <img src="../images/logo.svg" alt="logo" />
           </div>
@@ -31,7 +31,7 @@ function App() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-facebook-f fa"></i>
               </a>
             </li>
             <li>
@@ -40,7 +40,7 @@ function App() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-twitter fa"></i>
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ function App() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-instagram fa"></i>
               </a>
             </li>
           </ul>
