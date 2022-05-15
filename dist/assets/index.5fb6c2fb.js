@@ -9005,7 +9005,10 @@ function Pd() {
         children: [
           W("div", {
             className: "page__logo",
-            children: W("img", { src: "../../images/logo.svg", alt: "logo" }),
+            children: W("img", {
+              src: "./logo.svg",
+              alt: "logo",
+            }),
           }),
           yr("div", {
             className: "main",
@@ -9013,7 +9016,7 @@ function Pd() {
               W("div", {
                 className: "page__image",
                 children: W("img", {
-                  src: "../../images/illustration-mockups.svg",
+                  src: "./illustration-mockups.svg",
                   alt: "illustration",
                 }),
               }),
