@@ -1,6 +1,6 @@
 import "./App.scss";
-import illustration from "./images/illustration-mockups.svg";
-import logo from "./images/logo.svg";
+import illustration from "../images/illustration-mockups.svg";
+import logo from "../images/logo.svg";
 
 function App() {
   return (
