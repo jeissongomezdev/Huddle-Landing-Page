@@ -1,4 +1,6 @@
 import "./App.scss";
+import illustration from "./images/illustration-mockups.svg";
+import logo from "./images/logo.svg";
 
 function App() {
   return (
@@ -6,14 +8,11 @@ function App() {
       <div className="container">
         <div className="page">
           <div className="page__logo">
-            <img src="../images/logo.svg" alt="logo" />
+            <img src={logo} alt="logo" />
           </div>
           <div className="main">
             <div className="page__image">
-              <img
-                src="../images/illustration-mockups.svg"
-                alt="illustration"
-              />
+              <img src={illustration} alt="illustration" />
             </div>
             <div className="page__description">
               <h2 className="page__title">
